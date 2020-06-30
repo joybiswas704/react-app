@@ -1,0 +1,23 @@
+.sectionHeading {
+  text-align: center;
+  color: #454545;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0rem;
+  /* animation: leftToRight 2s; */
+}
+
+.hb {
+  height: 0.3rem;
+  width: 5rem;
+  background-color: #454545;
+  display: inline-block;
+  /* animation: leftToRight 4s; */
+}
+/* 
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-40rem);
+    opacity: 0;
+  }
+} */

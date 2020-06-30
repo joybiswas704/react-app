@@ -1,0 +1,20 @@
+.nav {
+  background-color: #1b252f !important;
+  border-bottom: 0.2rem solid #11c2c9 !important;
+}
+
+.navItem {
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  transition: all 0.5s;
+  padding: 0.5rem 2rem !important;
+}
+
+.navItem:hover {
+  color: #e21b6d !important;
+}
+
+.mainItem {
+  color: #e21b6d !important;
+}

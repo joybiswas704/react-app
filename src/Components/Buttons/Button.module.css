@@ -1,0 +1,41 @@
+.btn {
+  border: 0.2rem solid white;
+  margin-top: 2rem;
+  width: 15rem;
+  height: 4rem;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  color: white;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  font-weight: 700;
+  transition: all 0.5s;
+  animation: fade-up 2s ease;
+}
+
+.btn:hover {
+  background-color: #11c2c9;
+  border-color: #11c2c9;
+}
+
+.btn:active {
+  transform: translateY(0.5rem);
+  transition: all 0.5s;
+}
+
+.btn:hover .icon {
+  transform: rotate(90deg);
+}
+
+.icon {
+  transition: all 0.5s;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+}

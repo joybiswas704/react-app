@@ -1,0 +1,12 @@
+.progressBar {
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 0;
+  height: 1.5rem;
+}
+
+.item {
+  color: #454545;
+  font-weight: 700;
+  font-size: 1rem;
+}

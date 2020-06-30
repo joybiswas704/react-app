@@ -1,0 +1,32 @@
+.polygon {
+  width: 18rem;
+  height: 18rem;
+  background-image: url("../../Assets/zmoji-2.png");
+  background-size: cover;
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  /* animation: leftToRight 1s ease; */
+}
+
+.title {
+  color: #454545;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  /* animation: leftToRight 1s ease; */
+}
+
+.desc {
+  text-align: center;
+  /* animation: leftToRight 1s ease; */
+}
+
+/* @keyframes leftToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-25rem);
+  }
+} */

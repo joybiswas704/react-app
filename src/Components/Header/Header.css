@@ -1,0 +1,10 @@
+.Header {
+  height: 100vh;
+  background-image: url("../../Assets/header-background.png");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.footer {
+  background-color: #1b252f;
+  padding: 5rem;
+  padding-top: 35rem;
+  clip-path: polygon(0 65%, 100% 18%, 100% 100%, 0% 100%);
+}
+
+.copyright {
+  display: inline;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+}
