@@ -7,11 +7,16 @@ import IntroCard from "../Components/IntroCard/IntroCard";
 import SkillsStat from "../Components/SkillsStat/SkillsStat";
 import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
+import MediaCard from "../Components/MaterialCard/MaterialCard";
 import { Container, Row, Col } from "react-bootstrap";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+import img_photography from "../Assets/photography.jpg";
+import img_music from "../Assets/musician.jpg";
+import img_travel from "../Assets/header-3.jpg";
 
 function App() {
   const statCardArray = [
@@ -77,7 +82,7 @@ function App() {
       </div>
       <div id="about">
         <NavigationBar />
-        <SectionHeading title="About" />
+        <SectionHeading title="About Me" />
         <div data-aos="fade" style={{ textAlign: "center" }}>
           <React.Fragment>{statCardList}</React.Fragment>
         </div>
@@ -105,6 +110,41 @@ function App() {
         </div>
       </div>
       <div className="utility-margin"></div>
+      <div id="portfolio">
+        <SectionHeading title="What inspires me?" />
+        <Container>
+          <Row
+            style={{
+              display: "flex",
+              alignItems: "center",
+              overflow: "hidden",
+              textAlign: "center",
+            }}
+          >
+            <Col xs={12} md={4} lg={4} data-aos="fade-right">
+              <MediaCard
+                picture={img_photography}
+                title="Photography"
+                paragraph="I started photography as a hobby few years ago. I like to capture moment in my frame."
+              />
+            </Col>
+            <Col xs={12} md={4} lg={4} data-aos="fade-up">
+              <MediaCard
+                picture={img_music}
+                title="Music"
+                paragraph="I belong to a muscian family. I play guitar and i mostly like folk music"
+              />
+            </Col>
+            <Col xs={12} md={4} lg={4} data-aos="fade-left">
+              <MediaCard
+                picture={img_travel}
+                title="Traveling"
+                paragraph="I love to travel. I have a list of places i wanna travel before i die. "
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <div id="contact">
         <SectionHeading title="Get In Touch" />
         <div data-aos="zoom-in">

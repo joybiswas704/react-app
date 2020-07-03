@@ -1,0 +1,9 @@
+.MuiButton-contained {
+  background-color: #11c2c9 !important;
+  transition: all 0.2s;
+}
+
+.MuiButton-contained:hover {
+  background-color: teal !important;
+  color: white !important;
+}

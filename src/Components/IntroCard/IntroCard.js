@@ -4,7 +4,13 @@ import { Card } from "react-bootstrap";
 
 const IntroCard = (props) => {
   return (
-    <Card style={{ display: "inline-block", border: "none" }}>
+    <Card
+      style={{
+        display: "inline-block",
+        border: "none",
+        backgroundColor: "transparent",
+      }}
+    >
       <Card.Body style={{ textAlign: "center" }}>
         <div className="polygon"></div>
         <Card.Title className="title">{props.title}</Card.Title>

@@ -12,6 +12,7 @@ const StatCard = (props) => {
         width: "18rem",
         display: "inline-block",
         border: "none",
+        backgroundColor: "transparent",
       }}
     >
       <Card.Body style={{ textAlign: "center" }}>

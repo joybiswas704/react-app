@@ -14,6 +14,9 @@ const NavigationBar = () => {
           <Nav.Link className="navItem" href="#about">
             About
           </Nav.Link>
+          <Nav.Link className="navItem" href="#portfolio">
+            Hobby
+          </Nav.Link>
           <Nav.Link className="navItem" href="#contact">
             Contact
           </Nav.Link>
